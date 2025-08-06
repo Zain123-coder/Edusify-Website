@@ -35,7 +35,7 @@ const Navbar = () => {
       </div>
       
       <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
-        <img src="/images/menu-icon.png" alt="Menu" />
+        <img src={process.env.PUBLIC_URL + "/images/menu-icon.png" }alt="Menu" />
       </div>
     </nav>
   );
