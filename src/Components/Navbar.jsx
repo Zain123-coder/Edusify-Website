@@ -21,7 +21,8 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="logo">
-        <img src="/images/logo.png" alt="Edusify Logo" />
+        <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="Edusify Logo" />
+        
       </div>
       
       <div className={`nav-links ${menuOpen ? 'active' : ''}`}>

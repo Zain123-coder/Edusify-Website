@@ -3,10 +3,10 @@ import '../Styles/Campus.css';
 
 const Campus = () => {
   const galleryImages = [
-    { id: 1, src: "/images/gallery-1.png", alt: "Campus building" },
-    { id: 2, src: "/images/gallery-2.png", alt: "Library" },
-    { id: 3, src: "/images/gallery-3.png", alt: "Classroom" },
-    { id: 4, src: "/images/gallery-4.png", alt: "Sports facility" },
+    { id: 1, src:process.env.PUBLIC_URL +  "/images/gallery-1.png", alt: "Campus building" },
+    { id: 2, src:process.env.PUBLIC_URL +  "/images/gallery-2.png", alt: "Library" },
+    { id: 3, src: process.env.PUBLIC_URL + "/images/gallery-3.png", alt: "Classroom" },
+    { id: 4, src:process.env.PUBLIC_URL +  "/images/gallery-4.png", alt: "Sports facility" },
   ];
 
   return (

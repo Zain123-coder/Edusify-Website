@@ -69,15 +69,15 @@ const Contact = () => {
           
           <div className="contact-details">
             <div className="contact-item">
-              <img src="/images/mail-icon.png" alt="Email" />
+              <img src={process.env.PUBLIC_URL + "/images/mail-icon.png" }alt="Email" />
               <span>Contact@GreatStock.dev</span>
             </div>
             <div className="contact-item">
-              <img src="/images/phone-icon.png" alt="Phone" />
+              <img src={process.env.PUBLIC_URL + "/images/phone-icon.png"} alt="Phone" />
               <span>+123-456-7890</span>
             </div>
             <div className="contact-item">
-              <img src="/images/location-icon.png" alt="Location" />
+              <img src={process.env.PUBLIC_URL + "/images/location-icon.png" }alt="Location" />
               <span>77 Massachusetts Ave, Cambridge MA 02139, United States</span>
             </div>
           </div>
