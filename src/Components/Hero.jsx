@@ -12,7 +12,7 @@ const Hero = () => {
           skills, and experiences needed to excel in the dynamic field of education.
         </p>
         <button className="cta-button">
-          Explore more <img src="/images/white-arrow.png" alt="Arrow" />
+          Explore more <img src="/Images/white-arrow.png" alt="Arrow" />
         </button>
       </div>
     </section>

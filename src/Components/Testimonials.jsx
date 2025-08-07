@@ -18,21 +18,21 @@ const Testimonials = () => {
       name: "William Jackson",
       location: "Edusify, USA",
       text: "Choosing to pursue my degree at Edusify was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.",
-      image:process.env.PUBLIC_URL +  "/images/user-2.png"
+      image:process.env.PUBLIC_URL +  "/Images/user-2.png"
     },
     {
       id: 3,
       name: "Sophia Martinez",
       location: "Edusify, USA",
       text: "The faculty at Edusify are truly exceptional. Their guidance and expertise have been invaluable in shaping my educational journey and preparing me for my future career.",
-      image: process.env.PUBLIC_URL + "/images/user-3.png"
+      image: process.env.PUBLIC_URL + "/Images/user-3.png"
     },
     {
       id: 4,
       name: "Michael Brown",
       location: "Edusify, USA",
       text: "The diverse student body and inclusive environment at Edusify have enriched my learning experience beyond measure. I've grown both academically and personally.",
-      image: process.env.PUBLIC_URL + "/images/user-4.png"
+      image: process.env.PUBLIC_URL + "/Images/user-4.png"
     }
   ];
 
@@ -83,7 +83,7 @@ const Testimonials = () => {
       </div>
       
       <button className="see-more">
-        See more here <img src="/images/next-icon.png" alt="Next" />
+        See more here <img src="/Images/next-icon.png" alt="Next" />
       </button>
     </section>
   );

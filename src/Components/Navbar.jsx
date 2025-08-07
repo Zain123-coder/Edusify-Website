@@ -22,7 +22,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="logo">
         {/* <img src={process.env.PUBLIC_URL + "images/logo.png"} alt="Edusify Logo" /> */}
-        <img src={`${process.env.PUBLIC_URL}/images/logo.png`} />
+        <img src={`${process.env.PUBLIC_URL}/Images/logo.png`} />
         
       </div>
       
@@ -36,7 +36,7 @@ const Navbar = () => {
       </div>
       
       <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
-        <img src={process.env.PUBLIC_URL + "images/menu-icon.png" }alt="Menu" />
+        <img src={process.env.PUBLIC_URL + "Images/menu-icon.png" }alt="Menu" />
       </div>
     </nav>
   );
