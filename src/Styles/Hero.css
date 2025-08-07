@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('../../public/Images/hero.png') no-repeat center center;
+  background: url('../../public/images/hero.png') no-repeat center center;
   background-size: cover;
   padding: 0 10%;
   text-align: center;
