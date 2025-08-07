@@ -11,7 +11,7 @@ const Testimonials = () => {
       name: "Emily Williams",
       location: "Edusify, USA",
       text: "Choosing to pursue my degree at Edusify was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.",
-      image: process.env.PUBLIC_URL + "/images/user-1.png"
+      image: process.env.PUBLIC_URL + "/Images/user-1.png"
     },
     {
       id: 2,
